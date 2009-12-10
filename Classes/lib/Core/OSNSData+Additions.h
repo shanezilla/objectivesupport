@@ -1,6 +1,6 @@
 //NSData additions from colloquy project
 
-@interface NSData (NSDataAdditions)
+@interface NSData (OSNSDataAdditions)
 + (NSData *) dataWithBase64EncodedString:(NSString *) string;
 - (id) initWithBase64EncodedString:(NSString *) string;
 
